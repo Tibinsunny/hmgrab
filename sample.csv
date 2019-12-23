@@ -1,0 +1,4 @@
+﻿"URL","Type","Code","Status","Size","Response Time","X-Robots-Tag","Vary","Redirect to Final URL","# Redirects","# Link Headers"
+"https://goosssgle.com/","","","Name Not Resolved","","","","","","0","0"
+"https://google.com/asd.html","text/html; charset=UTF-8","404","Not Found","1569","0.58","","","","0","0"
+"https://google.com/","text/html; charset=UTF-8","301","Moved Permanently","220","0.63","","","https://www.google.com/","1","0"
