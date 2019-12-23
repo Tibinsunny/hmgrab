@@ -1,13 +1,13 @@
 # hmgrab
 This tool is used to manipulate the standard output of the SEO tool called HeadMaster.
 
-In HeadMasterSEO tool, response from a bulk of urls can be obtained and can be exported in CSV format.This tools allows the user to
+In HeadMasterSEO tool, response from bulk of urls can be obtained and can be exported in CSV format.This tools allows the user to
 arrange the links in the order of their response and convert it to a simple HTML page with Links.
 
 
 # Requirements
 
-The file requires a CSV imported from HeadMaster,Python X2 ,Modules like CSV,webbrowser.
+The file requires a CSV file imported from HeadMaster,Python X2 ,Modules like CSV,webbrowser.
 
 ``` pip install -r requirements.txt ```
 
