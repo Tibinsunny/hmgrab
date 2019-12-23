@@ -19,6 +19,8 @@ The file requires a CSV imported from HeadMaster,Python X2 ,Modules like CSV,web
 
 Then enter the name of the CSV file
 
+I have attached a sample CSV file to test the tool. sample.csv
+
 ![Image of HMgrab](https://github.com/Tibinsunny/hmgrab/blob/master/screenshot/Screenshot.PNG)
 
 # Result
