@@ -20,6 +20,9 @@ a=2
 array_arrange=0
 stat_code = []
 name=raw_input("Enter path to CSV file :")
+newpath = r"hmgrab"+name 
+if not os.path.exists(newpath):
+    os.makedirs(newpath)
 with open(name,'rt')as f:
   data = csv.reader(f)
   for row in data:
@@ -28,7 +31,7 @@ with open(name,'rt')as f:
         else:
             print(row[0])
             k=row[2]
-            k=k+".txt"
+            k=newpath+"/"+k+".txt"
             f=open(k,"a")
             f.write(row[0])
             f.write("\n")
