@@ -43,7 +43,7 @@ for j in range(flag):
       array_arrange=j
       name=stat_code[array_arrange]
       name_ext=name+".txt"
-      f1=open(name_ext,"r")
+      f1=open(newpath+"/"+name_ext,"r")
       f=open(newpath+"/connected.html","a")
     #  f.write("<h1>Data from:"+name_ext+"</h1>")
       f.write("<table border=1>"+name_ext)
@@ -51,7 +51,7 @@ for j in range(flag):
           f.write("<tr><td><a href="+x+">"+x+"</a><br></td></tr>")
       f.write("")
 f.write("</table>")
-webbrowser.open("connected.html")
+webbrowser.open(newpath+"/connected.html")
 
      
 
